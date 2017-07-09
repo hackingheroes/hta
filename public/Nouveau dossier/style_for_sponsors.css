@@ -1,0 +1,13 @@
+.spr{
+    display: flex;
+
+}
+.spr img{
+    height: 75px;
+    width: auto;
+    margin: 0 auto;
+}
+.erasmus img{
+    height: 100px;
+    width: 150px;
+}

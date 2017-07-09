@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.all{
+    display: flex;
+}
+body{
+    background-image: url(foto/bicz.jpg);
+    background-size: cover;
+}
+.indexfinder{
+text-align: center;
+padding: 5px;
+margin-left: 25%;
+margin-right: 25%;
+margin-top: 15%;
+margin-bottom: 15%;
+}
+.indexfinder h1{
+    font-size: 5em;
+    font-family: 'Baloo', cursive;
+    color: #1c2536;
+}
+.indexfinder input{
+    font-family: 'Baloo', cursive;
+    color: #1c2536;
+    width: 75%;
+    font-size: 2em;
+    text-align: center;
+}
+header{
+    background-image: url(foto/bicz.png);
+    text-align:center;
+    height: 200px;}
+
+
+.att {    width: 49%;
+   border: 3px rgba(130, 130, 130, 0.8) solid;
+   margin-top: 5px;
+   background: rgba(200, 200, 200, 0.55);
+
+
+
+   padding: 5px;}
+.att img{
+   width: 200px;
+   height:240px;
+
+
+}
+.att h1{
+   text-align:  center;
+   font-family: 'Baloo', cursive;
+
+}
+
+
+.att:hover{
+     background: rgba(150, 150, 150, 0.85);
+       }
+
+.att2{
+display: flex;
+ font-family: 'Baloo', cursive;
+flex-flow: row;
+
+}
+
+.attra{
+    display: flex;
+    padding: 0px;
+}
+.att:nth-child(2n+1){
+    margin-right: 2%;
+}
+.attraction{
+
+    width: 50%;
+    border: 3px rgba(130, 130, 130, 0.8) solid;
+    margin-top: 5px;
+    background: rgba(200, 200, 200, 0.55);
+    margin: 5px 25%;
+    padding: 5px;
+
+
+}
+.attraction img{
+    width: 250px;
+    height:250px;
+    margin-right: 5px;
+}
+.attraction h1{
+    text-align:  center;
+    font-family: 'Baloo', cursive;
+}
+.attraction2{
+    font-family: 'Baloo', cursive;
+}
+.attraction2{
+display: flex;
+}
+.login img{
+margin-left: 90%;
+margin-top: 2%;
+   width:  5em;
+}
+.city{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    width: 70%;
+    margin-top: 5px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px 15%;
+    font-family: 'Baloo', cursive;
+}
+.city .main{
+box-sizing: border-box;
+width: 100%;
+height:500px;
+}
+
+.main {
+    max-width: 100%;
+  background: url(foto/porto.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 98%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin:0px;
+
+}
+.main > header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  padding: 10px;
+
+  background: inherit;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.main > header::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.main > header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25)
+}
+.main > header > h2 {
+
+  margin: 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.description{
+    text-align: left;
+    padding: 10px;
+}
+
+.description p{
+    font-family: arial;
+}
+.sidebar{
+    color: white;
+    background:#36c4bd;
+    width:15%;
+    font-family: arial;
+    font-weight: bold;
+    border-right: 3px #27918c solid;
+}
+.sidebar h1{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.sidebar li{
+    margin-left: 20px;
+    list-style: square;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar a:hover{
+    color: lightblue;
+}
